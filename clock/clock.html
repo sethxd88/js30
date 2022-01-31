@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock</title>
+  <script src="clock.js"></script>
+</head>
+
+<body>
+  <div class="clock">
+    <div class="clockface">
+      <div class="hand seconds-hand"></div>
+      <div class="hand minutes-hand"></div>
+      <div class="hand hours-hand"></div>
+    </div>
+  </div>
+</body>
+
+<style>
+  html {
+    background-color: black;
+  }
+
+  body{
+    margin: 0;
+    /* font-size: 2rem; */
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    /* align-items: center; */
+  }
+
+  .clock {
+    width: 30rem;
+    height: 30rem;
+    border-color: 20px solid blanchedalmond;
+    border-radius: 50%;
+    margin: auto;
+    background-color: cornsilk;
+    position: relative;
+    padding: 0.8rem;
+  }
+
+  .clockface {
+    width: 30rem;
+    height: 100%;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+  }
+
+  .hand {
+    width: 50%;
+    height: 5px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+  }
+  </style>
+</html>
