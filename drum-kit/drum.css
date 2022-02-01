@@ -30,22 +30,22 @@ body,html {
 }
 
 .key {
-  border: .01rem solid wheat;
+  border: .01rem solid whitesmoke;
   border-radius: .5rem;
   margin: 1rem;
-  font-size: 1.5rem;
+  font-size: .5rem;
   padding: 1rem .5rem;
-  transition: all .07s ease;
   width: 10rem;
   text-align: center;
   color: white;
   text-shadow: 0 0 .5rem black;
+  transition: all .07s ease;
 }
 
 .playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  transform: scale(0.9);
+  border-color: #0A9AFD;
+  box-shadow: 0 0 1rem #0A9AFD;
 }
 
 kbd {
@@ -57,13 +57,13 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   font-size: 0.1rem;
-  color: #ffc600;
+  color: #8CE6DC;
   display: block;
 }
 
 .note {
   font-size: 0.01rem;
   letter-spacing: .05rem;
-  color: #ffd84b5d;
+  color: #B0BAD9;
   display: block;
 }
