@@ -3,6 +3,20 @@ html {
   font-size: 15px;
 }
 
+@media (max-width: 760px) {
+  html {
+    background-color: black;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    background-color: black;
+    font-size: 5px;
+  }
+}
+
 body{
   margin: 0;
   display: flex;
@@ -45,14 +59,15 @@ body{
 
 .seconds-hand {
   transition: all -1s;
+  height: 3px;
 }
 
-.hours-hand {
+.minutes-hand {
   width: 30%;
   left: 20%;
 }
 
-.minutes-hand {
+.hours-hand {
   width: 25%;
   left: 25%;
 }
