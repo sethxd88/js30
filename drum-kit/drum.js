@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', () => {
+(function (){
 
   function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
@@ -44,4 +44,4 @@ window.addEventListener('DOMContentLoaded', () => {
     if (e.target.innerHTML === "K") audio75.currentTime = 0, audio75.play(), document.querySelector(`div[data-key="75"]`).classList.add("playing");
     if (e.target.innerHTML === "L") audio76.currentTime = 0, audio76.play(), document.querySelector(`div[data-key="76"]`).classList.add("playing");
   }
-});
+})();
